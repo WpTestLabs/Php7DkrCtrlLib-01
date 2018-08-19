@@ -1,4 +1,3 @@
-cat >$SrvLib/cfPhpDkrLib.sh <<'EOFo'
 #!/bin/bash
     echo "start: $SrvLib/cfPhpDkrLib.sh"
 if [[ ! -e $KnBasHP ]]; then  echo ">>>> DII: $KnRtN ($KnPkgN) at $KnBasHP"
