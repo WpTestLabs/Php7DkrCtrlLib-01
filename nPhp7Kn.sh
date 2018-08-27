@@ -4,7 +4,7 @@ if [[ -z "$Srv" ]]; then  echo -e "\n** \$Srv is not defined! **\n"; exit; fi
 export KnN=t10Php7Kn   # @@@@>> $1  @@@@ check if KnN already in use !!!
 export KnPkgN=php7
   #export DkrImgN=cldfns/php7-wp-alpine-apk
-export DkrImgN=wptestlabs/php7fpm-wpmin
+export DkrImgN=wptestlabs/php7fpm-wpcli
 export KnConfVer=v0
 export KnKlsN=cfPhp7DkrLib
 export DkrRunDCmd=''
