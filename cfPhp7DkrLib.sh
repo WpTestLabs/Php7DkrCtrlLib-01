@@ -7,4 +7,5 @@ mkdir -p  $KnBasHP/{etc/$KnPkgN,log/$KnPkgN}
 	cp -rp $SrvLib/php7/$DkrRtImgN/$KnConfVer/etc/php7/* $KnBasHP/etc/php7/
 fi			#tt	tree -ACa  $KnBasHP;		exit;
 .	$SrvLib/cfDkrCtrlLib.sh
+ImportWXR () {  DkrCmd2CID "exec -it" /srv/www/lib/importWXR.sh $1 $2; }
 doCli $@ 
